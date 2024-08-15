@@ -1,3 +1,21 @@
+v6.4.2
+======
+
+Bugfixes
+--------
+
+- Merged fix for UTF-16 BOM handling in functional tests. (#312)
+
+
+v6.4.1
+======
+
+Bugfixes
+--------
+
+- When constructing ZipReader, only append the name if the indicated module is a package. (python/cpython#121735)
+
+
 v6.4.0
 ======
 
